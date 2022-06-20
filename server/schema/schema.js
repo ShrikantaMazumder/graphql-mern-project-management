@@ -12,6 +12,7 @@ const ClientType = new GraphQLObjectType({
     })
 });
 
+// Project Type
 const ProjectType = new GraphQLObjectType({
   name: "Project",
   fields: () => ({
